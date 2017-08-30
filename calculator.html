@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Change Calculator</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Change Calculator</h1>
+			<form name="calculator">
+				<div class="container">
+					<input type="number" min="1" class="form-field" id="productPrice" placeholder="Products price">
+					<input type="number" min="1" class="form-field" id="givenMoney" placeholder="Money given">
+				</div>
+				<div class="button-container">
+					<input type="button" id="count" value="Count your change">
+				</div>
+			</form>
+			<div id="change"><p>Your change will appear here.</p></div>	
+			<div id="moneyBack"></div>
+		</div>	
+	</body>
+	<script src="script.js"></script>
+</html>
